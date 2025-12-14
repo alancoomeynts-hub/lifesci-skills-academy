@@ -11,14 +11,14 @@
 # Website Layout Planning
 
 ## Palette (source: https://colorhunt.co/palette/1b3c53456882d2c1b6f9f3ef): 
-#1B3C53 (Deep Navy) → Headers, nav, primary buttons
-#456882 (Mid Blue)  → Accents, links, secondary buttons  
-#D2C1B6 (Warm Taupe)→ Main backgrounds, cards
-#F9F3EF (Soft Ivory)→ Surfaces, hover states
-#FFFFFF (White)     → Text on navy/blue
-#1B3C53 (Navy)     → Text on taupe/ivory
+- #1B3C53 (Deep Navy) → Headers, nav, primary buttons
+- #456882 (Mid Blue)  → Accents, links, secondary buttons  
+- #D2C1B6 (Warm Taupe)→ Main backgrounds, cards
+- #F9F3EF (Soft Ivory)→ Surfaces, hover states
+- #FFFFFF (White)     → Text on navy/blue
+- #1B3C53 (Navy)     → Text on taupe/ivory
 
-##Fonts: 
+## Fonts: 
 - Inter
 - Playfiar display for headings
 - Source: Following advice from https://webflow.com/blog/fonts-for-web-design
@@ -61,4 +61,5 @@
 -Address
 -Contact Us - Career Advice
 -Social media links
+
 
