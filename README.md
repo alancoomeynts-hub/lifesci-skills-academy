@@ -82,13 +82,13 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
  - Responsive Bootstrap carousel on homepage 
  - Mix of quote cards from alumni (name, role, company, quote)
  - Auto-rotate + manual navigation, mobile swipe support
- - Partner logos section
+ - logos section of companies LifeSciSkills Academy has created bespoked training for.
    
 #### Tasks
 -	Implement Bootstrap carousel with testimonials section on home
 -	Showcases a mix of testimonial cards and videos.
 -	Ensure carousel is mobile friendly 
--	Responsive grid of logos LifeSciSkills Academy has created bespoked training for
+-	Responsive grid of logos 
 
 ### 6. B2B Contact Form (Must Have)
    User Story: As an HR associate for manufacturing company, I want a contact form to arrange bespoke training or private intake.
@@ -163,6 +163,7 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 -Address with map iframe modal
 -Contact Us - Career Advice - modal form
 -Social media links
+
 
 
 
