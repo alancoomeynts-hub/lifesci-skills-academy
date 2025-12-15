@@ -24,32 +24,33 @@
 
 ## User Stories
 ### 1. Easily navigatible and responsive website design.
-    As a graduate, I would like easy access to access to course information and course enquiry forms.
+   User story: As a graduate, I would like easy access to access to course information and course enquiry forms.
 
-    #### Acceptance Criteria:
-    - Website,accessible on a variety of screen sizes.
-    - Intutive site layout, all information required accessible in 3 or less clicks.
+#### Acceptance Criteria:
+   - Website,accessible on a variety of screen sizes.
+   - Intutive site layout, all information required accessible in 3 or less clicks.
 
-   #### Tasks
-    - Utilise Bootstrap to create easily navigatable website using responsive design principles and best practice.
+#### Tasks
+   - Utilise Bootstrap to create easily navigatable website using responsive design principles and best practice.
       
 ### 2. Highly Quality presention of information on LifeSciSkills Academy courses (Must Have)
-    As a potential student, I would like to see details of each course offering so I can compare and the enquiry.
- #### Acceptance Criteria
+   User Story: As a potential student, I would like to see details of each course offering so I can compare and the enquiry.
+  #### Acceptance Criteria
    - Provide programs dtails, presentation in accessible and responsive way
    - Form accessible below course details to collect enquiry information.
    - Form must be complete before submission and user recives feedback on successful submission.
-   #### Tasks:
-    - Create navbar and tabs containing details of each course: Academic eligibilty, Course curriculum, price, duration and delivery method.
-    - Implement Form with validation to collect information: coure of interest,preferred deliverivy location, name, phone, email, lead source, employment status and additional message.
+  #### Tasks:
+   - Create navbar and tabs containing details of each course: Academic eligibilty, Course curriculum, price, duration and delivery method.
+   - Implement Form with validation to collect information: coure of interest,preferred deliverivy location, name, phone, email, lead source, employment status and additional message.
     
- 4. Events and Webinars (Must Have)
+ 3. Events and Webinars (Must Have)
     As current employee, I would like to choose a course I feel would be the best pick to advance my career. I would to signn up for a webinar or an Open day to what your courses can offer me.
  5. Story for Career Guidance Form
  6. Testimonials (should Have)
  7. Quick Access to enquire about courses and services offered
  8. B2B Contact Form (Must Have)
  9. Sign up for Journal (could Have)
+
 # Website Layout Planning
 
 ## Palette: 
@@ -110,6 +111,7 @@
 - CRM Sync
 - Multiple lanaguage support for expansion to International Students
 - LMS Integration
+
 
 
 
