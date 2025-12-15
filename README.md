@@ -46,14 +46,14 @@
   #### Tasks:
    - Create navbar and tabs containing details of each course: Academic eligibilty, Course curriculum, price, duration and delivery method.
    - Implement Form with validation to collect information: coure of interest,preferred deliverivy location, name, phone, email, lead source, employment status and additional message.
-   - Implement hero image with overlay of cards to show programs available for next intake. Grid must be responsive, transparent for Hero image to come through.
+   - Implement hero image with overlay of Bootstrap cards to show programs available for next intake. Grid must be responsive, transparent for Hero image to come through.
    - Call to Action button in navbar to quickly open enquiry form.
-   - Redirect on submission: "Follow up by call or email within 24hrs"
+   - Direct to success page on submission.
     
 ### 3. Events and Webinars (Must Have)
    User Story: As current employee, I would like to choose a course I feel would be the best pick to advance my career. I would like to sign up for a webinar or an Open day to  assesswhat your courses can offer me.
 
-   #### Acceptance Criteria
+#### Acceptance Criteria
    - Events page with table of upcoming webinar and open day events
    - Form to register intent to attend and submit enquiry. Form requires event name, course of interest,preferred delivery location, name, phone, email, lead source, employment status and additional message.
    - Section on home page, invitation to event pages and registration form.
@@ -67,7 +67,6 @@
       
 ### 4. Career Guidance (Should Have)
 User Story: As a career transitioner, I want a guidance form so I get advice without knowing exact course fit.
-
 #### Acceptance Criteria
 - Footer modal or dedicated section with career advice form
 - Form collects goals, background, preferred location (no course selection required)
@@ -80,26 +79,24 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 ### 5. Testimonials (Should Have)
  User Story: As a potential student or HR associate, I want a testimonials carousel so I trust your life sciences course and training programs.
 #### Acceptance Criteria
- - Responsive Bootstrap carousel on homepage (3-4 testimonials visible)
- - Mix of quote cards from pharma/biotech alumni (name, role, company, quote)
+ - Responsive Bootstrap carousel on homepage 
+ - Mix of quote cards from alumni (name, role, company, quote)
  - Auto-rotate + manual navigation, mobile swipe support
  - Partner logos section
    
 #### Tasks
 -	Implement Bootstrap carousel with testimonials section on home
--	Create 6+ testimonial cards with Bootstrap .card components
+-	Showcases a mix of testimonial cards and videos.
 -	Ensure carousel is mobile friendly 
 -	Responsive grid of logos LifeSciSkills Academy has created bespoked training for
-    
 
-    
- ### 6. B2B Contact Form (Must Have)
+### 6. B2B Contact Form (Must Have)
    User Story: As an HR associate for manufacturing company, I want a contact form to arrange bespoke training or private intake.
 #### Acceptance Criteria
 - Dedicated section in course page with access from navbar
 - Dedicated B2B form with company fields + training needs
 - Fields: company name, team size, training type, budget range, contact details
-- Redirect on submission.
+- Success message: "B2B specialist will respond within 24hrs"
 #### Tasks
 - Link to B2B section on navbar
 -	Create B2B form fields: company, role, employees, training needs (select), dates
@@ -166,6 +163,7 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 -Address with map iframe modal
 -Contact Us - Career Advice - modal form
 -Social media links
+
 
 
 
