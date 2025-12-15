@@ -48,7 +48,7 @@
    - Implement Form with validation to collect information: coure of interest,preferred deliverivy location, name, phone, email, lead source, employment status and additional message.
    - Implement hero image with overlay of cards to show programs available for next intake. Grid must be responsive, transparent for Hero image to come through.
    - Call to Action button in navbar to quickly open enquiry form.
-   - Direct to success page on submission.
+   - Redirect on submission: "Follow up by call or email within 24hrs"
     
 ### 3. Events and Webinars (Must Have)
    User Story: As current employee, I would like to choose a course I feel would be the best pick to advance my career. I would like to sign up for a webinar or an Open day to  assesswhat your courses can offer me.
@@ -99,7 +99,7 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 - Dedicated section in course page with access from navbar
 - Dedicated B2B form with company fields + training needs
 - Fields: company name, team size, training type, budget range, contact details
-- Success message: "B2B specialist will respond within 24hrs"
+- Redirect on submission.
 #### Tasks
 - Link to B2B section on navbar
 -	Create B2B form fields: company, role, employees, training needs (select), dates
@@ -166,6 +166,7 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 -Address with map iframe modal
 -Contact Us - Career Advice - modal form
 -Social media links
+
 
 
 
