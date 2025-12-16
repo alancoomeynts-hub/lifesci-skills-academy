@@ -27,3 +27,15 @@ h6 {
     font-family: var(--font-secondary);
 
 }
+
+/* grid visualisation CSS for testing */
+
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12, .col-8,.col-6,.col-xl {
+    border: 2px solid white;
+    background-color: lightgray;
+}

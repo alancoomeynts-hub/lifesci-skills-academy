@@ -74,7 +74,7 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 #### Tasks
 - Create CTA and modal with HTML form in Footer
 - Form fields: career goals (textarea), current role, location preference, name, email, phone, message
-- Direct to success page onsubmission
+- Direct to success page on submission
     
 ### 5. Testimonials (Should Have)
  User Story: As a potential student or HR associate, I want a testimonials carousel so I trust your life sciences course and training programs.
