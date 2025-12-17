@@ -152,6 +152,7 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 # Code
 - Code for responsive grid from Bootstrap documents, implementation inspired by grid layout video from Boardwalk games project, modified to fit project.
 - Code for navbar from bootstrap documentation, customised for website.
+- Class to prevent navbar blocking main content inspired by boardwalk games project. padding value adjust in dev tools to fit project.
 
 Resources:
 
