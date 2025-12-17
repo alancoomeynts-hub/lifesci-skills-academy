@@ -4,9 +4,9 @@
     --primary: #1B3C53;
     --secondary: #456882;
     --background: #D2C1B6;
-    --hover: #F9F3EF; 
+    --hover: #F9F3EF;
     --text-dark: #1B3C53;
-  
+
 
     --font-primary: 'Inter', sans-serif;
     --font-secondary: 'Playfair', serif;
@@ -14,7 +14,7 @@
 
 body {
     font-family: var(--font-primary);
-    background-color:var(--background);
+    background-color: var(--background);
     color: var(--text-dark);
 }
 
@@ -28,6 +28,60 @@ h6 {
 
 }
 
+/*navbar*/
+
+#navbar {
+    background-color: var(--primary);
+
+}
+
+#navbar .nav-link {
+    font-family: var(--font-primary);
+    color: white;
+    font-weight: 500;
+}
+#navbar .nav-link:hover{
+    color: var(--secondary);
+}
+
+#navbar .offcanvas-header {
+    background-color: var(--primary);
+    font-family: var(--font-secondary);
+    color:white;
+    font: var(--font-secondary);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+#navbar .offcanvas-title{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+#navbar .offcanvas-body {
+    background-color: var(--primary);
+
+}
+
+.custom-btn {
+    background-color: var(--secondary);
+    color: white;
+    border: 2px solid var(--secondary);
+
+}
+
+
+.custom-btn:hover{
+    background-color: var(--hover);
+    color: var(--primary);
+    border: 2px solid var(--secondary);
+
+    
+}
+
+#enquire-now-btn {
+    display: none;
+}
+
+
 /* grid visualisation CSS for testing */
 
 .container,
@@ -35,7 +89,19 @@ h6 {
     border: 2px solid black;
 }
 
-.col-12, .col-8,.col-6,.col-xl {
+.col-12,
+.col-8,
+.col-6,
+.col-xl {
     border: 2px solid white;
     background-color: lightgray;
+}
+
+/* media queries*/
+@media screen and (min-width: 992px) {
+
+    #enquire-now-btn {
+        display: block;
+    }
+
 }

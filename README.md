@@ -33,8 +33,8 @@
 
 #### Tasks
    - Create easily navigable website using responsive design principles and best practice using Bootstrap navbar and grid components.
-   - Create Responsiveness utilizing Bootstrap breakpoints
-   - Ensure Nav dropdown always collapses.
+   - Create Responsiveness utilizing Bootstrap breakpoints, using drawer for smaller screens.
+   
       
 ### 2. Highly Quality presention of information on LifeSciSkills Academy courses (Must Have)
    User Story: As a potential student, I would like to see details of each course offering so I can compare and the enquiry.
@@ -47,8 +47,8 @@
    - Create navbar and tabs containing details of each course: Academic eligibilty, Course curriculum, price, duration and delivery method.
    - Implement Form with validation to collect information: coure of interest,preferred deliverivy location, name, phone, email, lead source, employment status and additional message.
    - Implement hero image with overlay of Bootstrap cards to show programs available for next intake. Grid must be responsive, transparent for Hero image to come through.
-   - Call to Action button in navbar to quickly open enquiry form.
-   - Direct to success page on submission.
+   - Call to Action button in navbar to quickly open enquiry form. For larger screen implement CTA button in the top right corner. On mobile CTA button is a sticky button on the bottom right.
+   - Direct to success page on form submission.
     
 ### 3. Events and Webinars (Must Have)
    User Story: As current employee, I would like to choose a course I feel would be the best pick to advance my career. I would like to sign up for a webinar or an Open day to  assesswhat your courses can offer me.
@@ -109,21 +109,6 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 
 # Website Layout Planning
 
-## Palette: 
-- #1B3C53 (Deep Navy) → Headers, nav, primary buttons
-- #456882 (Mid Blue)  → Accents, links, secondary buttons  
-- #D2C1B6 (Warm Taupe)→ Main backgrounds, cards
-- #F9F3EF (Soft Ivory)→ Surfaces, hover states
-- #FFFFFF (White)     → Text on navy/blue
-- #1B3C53 (Navy)     → Text on taupe/ivory
-
-- source: https://colorhunt.co/palette/1b3c53456882d2c1b6f9f3ef
-
-## Fonts: 
-- Inter
-- Playfiar display for headings
-- Source: Following advice from https://webflow.com/blog/fonts-for-web-design
-
 ## Home page
 
 ### Navbar - Home Courses Events Testimonials Enquire Now
@@ -166,6 +151,7 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 
 # Code
 - Code for responsive grid from Bootstrap documents, implementation inspired by grid layout video from Boardwalk games project, modified to fit project.
+- Code for navbar from bootstrap documentation, customised for website.
 
 Resources:
 
