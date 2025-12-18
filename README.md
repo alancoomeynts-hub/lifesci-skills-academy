@@ -161,6 +161,9 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 - Transform and transition properties added to button hover classes after reading about CSS button properties on W2C. Source: https://www.w3schools.com/css/css3_buttons.asp
 - sticky CTA button for mobile/ touchscreens: Inspired by https://stackoverflow.com/questions/39617803/sticky-bottom-button-only-on-mobile
    Customises to fit project using CSS tutorial on W3S.
+- Used bootstrap utility classes to structure and arrange footer
+. Styling of footer inspired by Boardwalk walkthrough project.
+
 Resources:
 
 Colour palette selected from Color Hunt  https://colorhunt.co/palette/1b3c53456882d2c1b6f9f3ef
