@@ -64,6 +64,10 @@
 
  }
 
+ #navbar img{
+    height: 48px;
+ }
+
  /*buttons*/
  .custom-btn {
      font-family: var(--font-secondary);
@@ -117,7 +121,7 @@
 
  /*main*/
  .content-padding {
-     padding-top: 5.52rem;
+     padding-top: 4.5rem;
  }
 
  /*Footer*/
@@ -132,6 +136,7 @@
 
  #footer i {
      color: var(--highlight);
+     margin-right: 15px;
  }
 
  #footer .social-links {
