@@ -1,129 +1,142 @@
  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
-:root {
-    --primary: #1B3C53;
-    --secondary: #456882;
-    --background: #D2C1B6;
-    --tertiary: #F9F3EF;
-    --highlight: #E8B923;
-  
+
+ :root {
+     --primary: #1B3C53;
+     --secondary: #456882;
+     --background: #D2C1B6;
+     --tertiary: #F9F3EF;
+     --highlight: #E8B923;
 
 
-    --font-primary: 'Inter', sans-serif;
-    --font-secondary: 'DM Serif Display', serif;
-}
 
-body {
-    font-family: var(--font-primary);
-    background-color: var(--background);
-    color: var(--primary);
-}
+     --font-primary: 'Inter', sans-serif;
+     --font-secondary: 'DM Serif Display', serif;
+ }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: var(--font-secondary);
+ body {
+     font-family: var(--font-primary);
+     background-color: var(--background);
+     color: var(--primary);
+ }
 
-}
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: var(--font-secondary);
 
-/*navbar*/
+ }
 
-#navbar {
-    background-color: var(--primary);
+ /*navbar*/
 
-}
+ #navbar {
+     background-color: var(--primary);
 
-#navbar .nav-link {
-    font-family: var(--font-primary);
-    color: var(--tertiary);
-    font-weight: 500;
-}
-#navbar .nav-link:hover{
-    color: var(--secondary);
-}
+ }
 
-#navbar .offcanvas-header {
-    background-color: var(--primary);
-    font-family: var(--font-secondary);
-    color: var(--tertiary);
-    font: var(--font-secondary);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-}
-#navbar .offcanvas-title{
-    font-size: 1.1rem;
-    text-transform: uppercase;
-}
+ #navbar .nav-link {
+     font-family: var(--font-primary);
+     color: var(--tertiary);
+     font-weight: 500;
+ }
 
-#navbar .offcanvas-body {
-    background-color: var(--primary);
+ #navbar .nav-link:hover {
+     color: var(--secondary);
+ }
 
-}
-/*buttons*/
-.custom-btn {
-    background-color: var(--tertiary);
-    color: var(--primary);
-    border: 2px solid var(--secondary);
-    font-weight: 600; 
+ #navbar .offcanvas-header {
+     background-color: var(--primary);
+     font-family: var(--font-secondary);
+     color: var(--tertiary);
+     font: var(--font-secondary);
+     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+ }
 
-}
+ #navbar .offcanvas-title {
+     font-size: 1.1rem;
+     text-transform: uppercase;
+ }
 
+ #navbar .offcanvas-body {
+     background-color: var(--primary);
 
-.custom-btn:hover{
-    background-color: var(--highlight);
-    color: var(--primary);
-    border: 2px solid var(--highlight);
-    transition: 0.3s;
-    transform: translateY(-2px);
-    font-weight: bolder;
-   
-}
+ }
 
-#enquire-now-btn {
-    display: none;
-}
+ /*buttons*/
+ .custom-btn {
+     font-family: var(--font-secondary);
+     background-color: var(--tertiary);
+     color: var(--primary);
+     border: 2px solid var(--secondary);
+     font-weight: 600;
 
-.sticky-cta{
-    display: inline;
-    position: fixed;
-    bottom: 0;
-    right: 20px;
-
-    width: 100px;
-    height: 50px;
-    background-color: var(--secondary);
-    color: var(--tertiary);
-    border: 3px solid var(--secondary);
-   
-    font-weight: 600; 
-    text-decoration: none;
-   
-   
-}
-/*main*/
-.content-padding{
-    padding-top: 5.52rem;
-}
-/*Footer*/
-#footer{
-    background-color: var(--primary);
-    color: var(--background);
-    padding-bottom: 3rem;
-
-}
+ }
 
 
-#footer i{
-    color: var(--highlight);
-}
+ .custom-btn:hover {
+     background-color: var(--highlight);
+     color: var(--primary);
+     border: 2px solid var(--highlight);
+     transition: 0.3s;
+     transform: translateY(-2px);
+     font-weight: bolder;
 
-#footer .social-links{
-    
-    font-size:2rem;
-}
+ }
 
-/* grid visualisation CSS for testing
+ #enquire-now-btn {
+     display: none;
+ }
+
+ .sticky-cta {
+     display: inline;
+     position: fixed;
+     bottom: 54px;
+     right: 42px;
+
+     width: 140px;
+     height: 50px;
+     font-family: var(--font-secondary);
+     font-size: 1.2rem;
+     background-color: var(--secondary);
+     color: var(--highlight);
+     border: 3px solid var(--secondary);
+     border-radius: 25px;
+     padding-top: 8px;
+     text-align: center;
+     font-weight: 500;
+     text-decoration: none;
+
+
+ }
+
+ 
+
+ /*main*/
+ .content-padding {
+     padding-top: 5.52rem;
+ }
+
+ /*Footer*/
+ #footer {
+     background-color: var(--primary);
+     color: var(--background);
+     padding-bottom: 3rem;
+
+ }
+
+
+ #footer i {
+     color: var(--highlight);
+ }
+
+ #footer .social-links {
+
+     font-size: 2rem;
+ }
+
+ /* grid visualisation CSS for testing
 
 .container,
 .row {
@@ -138,14 +151,14 @@ h6 {
     background-color: lightgray;
 }  */
 
-/* media queries*/
-@media screen and (min-width: 768px) {
+ /* media queries*/
+ @media screen and (min-width: 768px) {
 
-    #enquire-now-btn {
-        display: block;
-    }
+     #enquire-now-btn {
+         display: block;
+     }
 
-    .sticky-cta{
-        display: none;
-    }
-}
+     .sticky-cta {
+         display: none;
+     }
+ }
