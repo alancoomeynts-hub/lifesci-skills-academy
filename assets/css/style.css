@@ -132,7 +132,7 @@
      color: var(--tertiary);
      font-family: var(--font-primary);
      padding-bottom: 1rem;
-     font-size: 1.1rem;
+ 
 
  }
 .footer-headings{
@@ -144,6 +144,11 @@
      color: var(--highlight);
      margin-right: 8px;
  }
+.anchor{
+    text-decoration: none;
+    font-family: var(--font-primary);
+    color: var(--tertiary);
+}
 
  #footer .social-links {
 
