@@ -164,6 +164,7 @@ User Story: As a career transitioner, I want a guidance form so I get advice wit
 - Used bootstrap utility classes to structure and arrange footer
 . Styling of footer inspired by Boardwalk walkthrough project.
 
+
 Resources:
 
 Colour palette selected from Color Hunt  https://colorhunt.co/palette/1b3c53456882d2c1b6f9f3ef

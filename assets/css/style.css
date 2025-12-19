@@ -79,12 +79,20 @@ h6 {
 }
 
 .custom-btn:hover {
-  background-color: var(--tertiary);
-  color: var(--primary);
-  border: 2px solid var(--tertiary);
+  background-color: var(--highlight);
+  color: var(--secondary);
+  border: 2px solid var(--highlight);
   transition: 0.3s;
   transform: translateY(-2px);
   font-weight: bolder;
+}
+
+.navbar-nav .nav-link.active{
+  text-decoration: underline;
+  text-decoration-color: var(--highlight) ;
+  text-decoration-thickness: 3px;
+  
+  
 }
 
 #enquire-now-btn {
