@@ -129,12 +129,16 @@
  /*Footer*/
  #footer {
      background-color: var(--primary);
-     color: var(--background);
+     color: var(--tertiary);
+     font-family: var(--font-primary);
      padding-bottom: 1rem;
      font-size: 1.1rem;
 
  }
+.footer-headings{
+    color: var(--background);
 
+}
 
  #footer i {
      color: var(--highlight);
