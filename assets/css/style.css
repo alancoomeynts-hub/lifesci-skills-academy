@@ -104,9 +104,9 @@
      height: 50px;
      font-family: var(--font-secondary);
      font-size: 1.2rem;
-     background-color: var(--secondary);
-     color: var(--highlight);
-     border: 3px solid var(--secondary);
+     background-color: var(--highlight);
+     color: var(--primary);
+     border: 3px solid var(--primary);
      border-radius: 25px;
      padding-top: 8px;
      text-align: center;
