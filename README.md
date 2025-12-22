@@ -39,7 +39,8 @@
  - Enquire now button felt out of place in the drawer on nav screen. To solve I made the button display none by default and used a media button to make it visible again at 992px breakpoint.
  - Expected issue adding sticky CTA button for mobile screen. Hoping following source can help out: https://stackoverflow.com/questions/39617803/sticky-bottom-button-only-on-mobile
 - Had some trouble centring images in the hero carousel. Tried to use background property initially before realising this does not work on img elements. Options were to remove img element and use background on carousel-item or  use object-fit: center on img elementsas suggested by W3C: https://www.w3schools.com/css/css3_object-fit.asp
-- Issue with carousel caption width at lg breakpoint. width was set to 600px which introduced
+- Issue with carousel caption width at lg breakpoint. width was set to 600px which introduced.
+- Carousel captions overflowing when container becomes too small for contents. Solution media query to to set max-height for small screens.
 
 # Code
 

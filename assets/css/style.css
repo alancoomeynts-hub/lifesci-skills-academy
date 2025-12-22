@@ -17,7 +17,7 @@ body {
   color: var(--primary);
 }
 
-h1{
+h1 {
   color: var(--primary);
   font-family: var(--font-secondary);
 }
@@ -145,19 +145,20 @@ h6 {
   letter-spacing: 0.05rem;
   text-decoration: none;
 }
+
 /*header*/
-.carousel-item{
+.carousel-item {
   /*set dimensions of carousel item hero image*/
   width: 100%;
   height: 75vh;
-  
-  
+
+
 }
 
-.hero-img{
+.hero-img {
   /* Ensure hero image fill the carousel item container*/
   height: 100%;
-  width: 100% ;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -166,12 +167,12 @@ h6 {
 
   /* Styles for glassmorphic background*/
   background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(8px); 
+  backdrop-filter: blur(8px);
   color: var(--primary);
   font-weight: 700;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   border-radius: 1.5rem;
-  
+
   /* set dimensions of caption box*/
   max-width: 600px;
   height: fit-content;
@@ -186,16 +187,16 @@ h6 {
   margin: auto;
 }
 
-.carousel-caption p{
-  color:var(--tertiary);
-  text-shadow: 3px 3px 12px rgba(0,0,0,1);
+.carousel-caption p {
+  color: var(--tertiary);
+  text-shadow: 3px 3px 12px rgba(0, 0, 0, 1);
 }
 
-#hero-image-logo{
- 
+#hero-image-logo {
+
   max-width: 800px;
   height: fit-content;
-   position: absolute;
+  position: absolute;
   right: 0;
   left: 0;
   top: 0;
@@ -205,14 +206,15 @@ h6 {
 }
 
 /* style to emphasize the availability of funding places on courses*/
-.text-gold{
+.text-gold {
   border: 1px var(--highlight);
   background-color: var(--highlight);
   color: var(--primary);
   font-weight: bold;
   padding: 0 2px;
-  text-shadow: none !important ; /*remove text shadow for text-gold class*/
-  
+  text-shadow: none !important;
+  /*remove text shadow for text-gold class*/
+
 }
 
 /*main*/
@@ -221,7 +223,7 @@ h6 {
   padding-top: 1.5rem;
 }
 
-#courses-home{
+#courses-home {
   background-color: var(--tertiary);
   border: 1px solid rgba(232, 185, 35, 0.25);
   border-radius: 1.5rem;
@@ -233,7 +235,7 @@ h6 {
   font-family: var(--font-secondary);
   color: var(--secondary);
   border: 0;
-  
+
 }
 
 #courses-home .card-body {
@@ -241,7 +243,7 @@ h6 {
   min-height: 54px;
 }
 
-.card .card-img-top{
+.card .card-img-top {
   border-radius: 1rem;
 
 }
@@ -275,6 +277,8 @@ h6 {
 
 
 /* media queries*/
+
+/*Above 768px, these styles apply*/
 @media screen and (min-width: 768px) {
   #enquire-now-btn {
     display: block;
@@ -283,17 +287,35 @@ h6 {
   .sticky-cta {
     display: none;
   }
+
+
+}
+/*below 768px, these styles apply*/
+@media screen and (max-width: 767px) {
+
+  .carousel-caption {
+
+    max-width: 90%;
+
+  }
+
+  #hero-image-logo {
+    max-width: 90%;
+  }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 578px) {
 
-  .carousel-caption{
+  .carousel-caption {
 
-    max-width: 90% ;
 
-    }
+    max-height: 440px;
 
-  #hero-image-logo{
-    max-width: 90%;
+
+  }
+
+  .custom-btn {
+
+    font-weight: 400;
   }
 }
