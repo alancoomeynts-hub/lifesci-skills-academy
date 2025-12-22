@@ -141,6 +141,11 @@ h6 {
   letter-spacing: 0.05rem;
   text-decoration: none;
 }
+/*header*/
+.carousel-item img{
+  width: 100%;
+  height: 725px;
+}
 
 /*main*/
 .content-padding {
