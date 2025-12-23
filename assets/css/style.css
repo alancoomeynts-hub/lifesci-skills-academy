@@ -267,7 +267,7 @@ h6 {
 /* Courses Page*/
 
 #course-tabs .nav-pills{
-  background-color: var(--primary);
+  background-color: var(--secondary);
   --bs-nav-link-color: var(--tertiary)!important;
   border-radius: 1rem;
   padding: 0.25rem;
@@ -276,8 +276,15 @@ h6 {
 
 }
 
-#course-tabs .nav-pills:hover{
-  --bs-nav-link-color: var(--highlight)!important;
+
+#course-tabs .nav-link{
+ 
+  margin: 0.25rem;
+  height: 3rem;           /* Fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 
 }
 
@@ -285,7 +292,17 @@ h6 {
   background-color: var(--highlight);
   color: var(--primary);
   border-radius: 0.75rem;
+  font-weight: bold;
 }
+
+/* selector uses not psuedo class to change the text color of the not active tab pills*/
+#course-tabs .nav-link:not(.active):hover{
+
+  color: var(--highlight);
+
+}
+
+
 
 
 /*Footer*/
