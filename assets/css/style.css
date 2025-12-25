@@ -157,7 +157,7 @@ h6 {
 }
 
 /*header*/
-.carousel-item {
+#carouselHero .carousel-item {
   /*set dimensions of carousel item hero image*/
   width: 100%;
   height: 75vh;
@@ -243,7 +243,7 @@ h6 {
   border-radius: 1.5rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
 }
-
+/* Home Page*/
 #courses-home .card {
   margin-bottom: 2rem;
   font-family: var(--font-secondary);
@@ -267,7 +267,21 @@ h6 {
   --bs-table-color: var(--primary); 
   --bs-table-border-color: rgba(232, 185, 35, 0.25)
 }
-
+#testimonials {
+  
+  padding: 2rem;
+  
+}
+#testimonials video{
+  max-height: 300px;
+  object-fit: cover;
+}
+#testimonials .card{
+  margin: 1rem;
+  max-width: 300px;
+  background-color: var(--tertiary);
+  color: var(--secondary);
+}
 /* Courses Page*/
 
 #course-tabs .nav-pills{
