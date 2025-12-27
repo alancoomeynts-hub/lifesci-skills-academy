@@ -26,18 +26,18 @@
 
 <body class="d-flex flex-column min-vh-100">
 
-  <nav id="navbar" class="navbar navbar-dark navbar-expand-md fixed-top">
+ <nav id="navbar" class="navbar navbar-dark navbar-expand-md fixed-top">
     <div class="container-fluid">
 
       <a class="navbar-brand" href="index.html">
         <img src="assets/images/navbar-logo.webp" alt="LifeSciSkill Academy Logo">
 
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" role="navigation"
         aria-labelledby="offcanvasDarkNavbarLabel">
         <div class="offcanvas-header">
           <p class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</p>
@@ -51,16 +51,16 @@
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="courses.html">Courses</a>
+              <a class="nav-link" href="courses.html">Courses</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="events.html">Events</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="careerguidance.html">Career Guidance</a>
+              <a class="nav-link" href="index.html#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+              <a class="nav-link" href="careerguidance.html">Career Guidance</a>
             </li>
 
             <li id="enquire-now-btn" class="nav-item">
@@ -81,6 +81,7 @@
     </header>
 
     <section id="career-guidance-form-success" class=" container main-content content-padding mb-4">
+      <h2 class="visually-hidden">Career Guidance Form Submittedon</h2> <!--hidden heading for screen readers-->
       <div class="row justify-content-center mb-4">
         <div class="col-12 text-center">
           <p class="lead">We have recieved your request and a member of our careers teams will contact you shortly</p>
@@ -121,11 +122,11 @@
 
           <div class="d-flex align-items-start mb-3">
             <span class="flex-shrink-0"><i class="fa-solid fa-phone"></i></span>
-            <span> <a href="tel: 35312 345 6789" class="anchor">012 345 6789</a><br> </span>
+            <span> <a href="tel:353123456789" class="anchor">012 345 6789</a><br> </span>
           </div>
 
           <div class="d-flex align-items-start">
-            <span class="flex-shrink-0"><i class="fa-regular fa-paper-plane"></i></i></span>
+            <span class="flex-shrink-0"><i class="fa-regular fa-paper-plane"></i></span>
             <span> <a href="mailto:info@LifeSciSkills.ie" class="anchor">info@LifeSciSkills.ie</a><br> </span>
           </div>
 
