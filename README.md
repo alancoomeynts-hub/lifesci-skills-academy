@@ -63,7 +63,17 @@
 -Centering of bootstrap carousel captions as suggested by https://www.freecodecamp.org/news/how-to-center-an-absolute-positioned-element/
 - Glassy carousel captions as described by https://blog.openreplay.com/create-glassmorphic-ui-css/
 - Accordion on events page from Bootstrap. Customised to fit project theme, targeted Bootstrap variables to change component styles.
+-JS script to close drawer after internal navigation and offset to prevent navbar blocking section heading adapted from code provided in the Boardwalk Games project for bootstrap drawer with assistance from https://stackoverflow.com/questions/66976510/bootstrap-5-offcanvas-disable-close-on-click and https://getbootstrap.com/docs/5.3/components/offcanvas/ and https://www.javascripttutorial.net/javascript-dom/javascript-domcontentloaded/. Changed offset target to #navbar as #navbar-toggler didn't work.
+-Event information presented using Bootstrap Accordion. Customised to fit project.
 
+# Bugs
+- JS code only works for the testimonials link on index.html. No offset when linking to courses form using the enquire button or linking to testimonial from another page.
+
+# Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator]
+  
 # Credits
 - Business model inspired by Innopharma Education.
 

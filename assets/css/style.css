@@ -46,7 +46,7 @@ h6 {
 }
 
 #navbar .nav-link:hover {
-  color: var(--secondary);
+  color: var(--highlight);
 }
 
 #navbar .offcanvas-header {
@@ -82,6 +82,8 @@ h6 {
 
 
 }
+
+
 
 /*buttons*/
 /*buttons styles for buttons on primary navy background*/
@@ -273,15 +275,10 @@ h6 {
   
 }
 #testimonials video{
-  max-height: 300px;
+  max-height: 400px;
   object-fit: cover;
 }
-#testimonials .card{
-  margin: 1rem;
-  max-width: 300px;
-  background-color: var(--tertiary);
-  color: var(--secondary);
-}
+
 /* Courses Page*/
 
 #course-tabs .nav-pills{
