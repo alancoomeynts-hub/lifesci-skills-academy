@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root {
   --primary: #1b3c53;
   --secondary: #456882;
   --background: #d2c1b6;
   --tertiary: #f9f3ef;
-  --highlight: #e8b923;
+  --highlight: #e8b923; 
 
   --font-primary: "Inter", sans-serif;
   --font-secondary: "DM Serif Display", serif;
@@ -110,9 +109,9 @@ h6 {
 /*styles for button in main of page*/
 .custom-btn-main {
   font-family: var(--font-secondary);
-  background-color: var(--secondary);
+  background-color: var(--primary);
   color: var(--highlight);
-  border: 2px solid var(--secondary);
+  border: 2px solid var(--primary);
   font-weight: 500;
   letter-spacing: 0.05rem;
 
@@ -239,6 +238,7 @@ h6 {
   padding-top: 1.5rem;
 }
 
+/*style for main content boxes*/
 .main-content {
   background-color: var(--tertiary);
   border: 1px solid rgba(232, 185, 35, 0.25);
@@ -253,17 +253,17 @@ h6 {
   border: 0;
 
 }
-
+/*style card body background to match site color scheme*/
 #courses-home .card-body {
   background-color: var(--tertiary);
   min-height: 54px;
 }
-
+/*style card images to have rounded corners*/
 .card .card-img-top {
   border-radius: 1rem;
 
 }
-
+/*style the events table on home page to match site color scheme by overriding bootstrap variables*/
 #events-home .table{
   --bs-table-bg: var(--tertiary);
   --bs-table-color: var(--primary); 

@@ -155,30 +155,44 @@
   <script src="https://kit.fontawesome.com/398116af51.js" crossorigin="anonymous"></script>
   <!--Custom JS-->
   <script>
-    //after DOM load event listener
-    document.addEventListener("DOMContentLoaded", () => {
-      var offcanvasElement = document.getElementById("offcanvasNavbar");
-      var offcanvas = new bootstrap.Offcanvas(offcanvasElement);
+    // Utility function to scroll to a section with navbar offset
+    function scrollToSection(section) {
+      const navbarHeight = document.querySelector("#navbar").offsetHeight;
+      window.scrollTo({
+        top: section.offsetTop - navbarHeight,
+        behavior: "smooth",
+      });
+    }
 
+    // After DOM load event listener
+    document.addEventListener("DOMContentLoaded", () => {
+      const offcanvasElement = document.getElementById("offcanvasDarkNavbar");
+      const offcanvas = new bootstrap.Offcanvas(offcanvasElement);
+
+      // Add click listeners to navigation elements
       offcanvasElement.querySelectorAll(".nav-link, .sticky-cta, .custom-btn")
         .forEach((link) => {
           link.addEventListener("click", (e) => {
-
-            // offset navbar after internal navigation
-            let section = document.querySelector(e.target.getAttribute("href"));
+            // Handle internal navigation with offset
+            const href = e.target.getAttribute("href");
+            const section = document.querySelector(href);
             if (section) {
               e.preventDefault();
-              let navbarHeight = document.querySelector("#navbar").offsetHeight;
-              window.scroll({
-                top: section.offsetTop - navbarHeight,
-                behavior: "smooth",
-              });
+              scrollToSection(section);
             }
 
             // Close offcanvas
             offcanvas.hide();
           });
         });
+
+      // Handle initial hash navigation with offset
+      if (window.location.hash) {
+        const section = document.querySelector(window.location.hash);
+        if (section) {
+          setTimeout(() => scrollToSection(section), 100);
+        }
+      }
     });
   </script>
 </body>
