@@ -69,8 +69,10 @@ h6 {
   background-color: var(--primary);
 }
 
-#navbar img {
-  height: 48px;
+.navbar-brand img {
+  width: 150px;  
+  height: 48px;  
+  
 }
 
 .navbar-nav .nav-link.active {
