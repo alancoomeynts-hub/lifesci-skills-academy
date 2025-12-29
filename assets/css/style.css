@@ -362,16 +362,25 @@ h6 {
 }
 
 @media screen and (max-width: 576px) {
+
+  /*adjust height of carousel caption for small screens to prevent overflow*/
   .carousel-caption {
     height: 80%;
   }
 
+  /*reduce button font weight for better fit on small screens to prevent overflow*/
   .custom-btn {
     font-weight: 400;
+  }
+
+  /* make offcanvas menu smaller on small screens to prevent it from covering screens completely*/
+  .offcanvas.offcanvas-end {
+    --bs-offcanvas-width: 75%;
   }
 }
 
 @media (max-width: 992px) and (orientation: landscape) {
+  /*adjust height of carousel caption for landscape mode to prevent overflow*/
   .carousel-caption {
     height: 90%;
   }
