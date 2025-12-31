@@ -53,7 +53,7 @@ h6 {
   background-color: var(--primary);
   font-family: var(--font-secondary);
   color: var(--tertiary);
-  font: var(--font-secondary);
+
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 /*style navbar offcanvas drawer title*/
@@ -265,11 +265,13 @@ h6 {
 
 
 /*style testimonial video to be responsive*/
-#testimonials video {
+#testimonials iframe{
   width: 100%;
-  height: auto;
-  max-height: 400px;
-  object-fit: contain;
+  display: block;
+  height: 600px;  
+  border-radius: 1rem;
+ 
+  
 }
 
 /* Courses Page*/
@@ -319,11 +321,6 @@ h6 {
   color: var(--primary);
   font-weight: bold;
 }
-
-.accordion-button.collapse:hover {
-  background-color: var(--highlight);
-  color: var(--secondary);
-} 
 
 /*Footer*/
 
@@ -375,6 +372,10 @@ h6 {
 
   #hero-image-logo {
     max-width: 90%;
+  }
+
+  #testimonials iframe{
+    height: 250px;
   }
 }
 
