@@ -118,43 +118,54 @@ Due to time constraints, a full B2B section (e.g., dedicated corporate training 
 
 Additionally, a journal or newsletter signup section could have been included to allow users to subscribe for updates on new courses, events, and industry insights, further supporting lead nurturing and brand awareness.
 
-# Bugs
-
 # Testing
 
 Website was thoroughly tested using user personas and stories as a guide.
 
-1. As a graduate, I would like easy access to access to course information and course enquiry forms in order to upskill for the pharma industry.
+1. **User Story:** a graduate, I would like easy access to course information and course enquiry forms in order to upskill for the pharma industry.
 **Pathways tested (all passed)**: Navigate to Courses Enquiry form from home by;
    1. **Navbar** Clicking Courses (Navbar link on desktop, opening drawer on mobile), or Learn More button in courses section, scroll to form.
    2. **CTA Button** Click Enquire button, direct access to form in one click.
    3. **Mobile CTA Button** On mobile or small tablets, right thumb click Enquire button for direct access.
    4. **Form validation**:  on Valid submission Redirect to submission page with follow-up details. Invalid entries show inline errors. 
 
-2. As a potential student, I would like to see details of each course offering so I can compare and the enquiry.
+2. **User Story:** As a potential student, I would like to see details of each course offering so I can compare and enquire.
    **Pathways tested (all passed)**: Navigate to Courses Enquiry form from home by
-      1. **January Intake Hero Image Overlay**: Home → Click on Overlay January Intake Now Open → Courses page tabs.
-      2. **Navbar**: Home → **Courses** → Auto-open first tab. 
-      3. **Scroll Section**: Home → Scroll to courses grid, see course categories, click Learn More.
+      1. **January Intake Hero Image Overlay**: Home → Click on button in  Overlay January Intake Now Open → Courses page tabs.
+      2. **Navbar**: Home → **Courses** → navigate to course tabs. 
+      3. **Scroll Section**: Home → Scroll to courses grid, see course categories, click "Learn More".
       4. **Tab validation**: All 5 course tabs switch correctly, show course details. Nav-Pills and details stack horizontally, thumb-friendly.
 
-3. As a current employee in pharma industry, I want to understand the differences between your courses and register for a webinar or open day so that I can choose the best option to progress my career.
-   **Pathways tested (all passed)**: Navigate to Events Pages from home by
-    1. **Open Day Hero Image Overlay**: Home → Click on Overlay Open Day Now Open →  to Event Registration form → Submit form.
-      2. **Navbar**: Home → Click on Events in navbar or open drawer an click on mobile → Event page → View Events Accordion → Scroll to Event Registration form → Submit form.
-      3. **Scroll Section**: Home → Scroll to event section, see upcoming events in table, click Register →  to Event Registration form → Submit form.
+3. **User Story:** As a current employee in pharma industry, I want to understand the differences between your courses and register for a webinar or open day so that I can choose the best option to progress my career.
+   **Pathways tested (all passed)**: Navigate to Events Page from home by
+      1. **Open Day Hero Image Overlay**: Home → Click on Overlay Open Day Now Open →  to Event Registration form → Submit form.
+      2. **Navbar**: Home → Click on "Events" in navbar or open drawer an click on mobile → Event page → View Events Accordion → Scroll to Event Registration form → Submit form.
+      3. **Scroll Section**: Home → Scroll to event section, see upcoming events in table, click "Register" →  to Event Registration form → Submit form.
       4. **Form validation**:  on Valid submission Redirect to Event registration submission page with follow-up details. Invalid entries show inline errors. 
 
-- As a career transitioner, I want a guidance form so I get advice without knowing exact course fit.
-- As a potential student or HR associate, I want a testimonials carousel so I trust your life sciences course and training programs.
+4. **User Story:** As a career transitioner, I want a guidance form so I get advice without knowing exact course fit.
+   **Pathways Tested (all passed)** Navigate to Career Guidance form:
+      1. **Navbar** Home → Click Career Guidance Link on Navbar or by expanding drawer and click link on mobile.
+      2. **Footer Button**  Footer → Click "Get Career Advice" button.
+      3. **Form validation**:  on Valid submission Redirect to Career Guidance form submission page with follow-up details. Invalid entries show inline errors.
+
+5. **User Story:** As a potential student or HR associate, I want a testimonials carousel so I trust your life sciences course and training programs.
+   **Pathways Tested (all passed)** 
+   1. Navigate to Testimonials section using Navbar link or by opening drawer and clicking link in drawer. Navigate testimonial vidoes using carousel.
+
+6. **User Story:** As an HR associate for manufacturing company, I want a way to contact you to arrange bespoke training or private intake.
+**Pathways Tested (all passed)**
+   1. Click general contact email → Open email app to send email.
 
 **Responsive Behaviour**: 
 1. Course section cards align horizontally on XL screens and up, 2*2 on md and lg, stack horizontally on small screens.
 2. Navbar links are replaced by drawer on mobiles. Enquire button in navbar is replaced with sticky "Enquire" right thumb button.
-3. All forms respond to screensize by stalking fields vertically on mobile screen and a 2*2 grid on larger screens.
-4. Course tab nav-pills stack on mobile, expanded to two on argerr screens. Course tab details stack on sm and md screens, 2*2 otherwise.
-5. Events section
-
+3. All forms respond to screensize by stacking fields vertically on mobile screen and a 2*2 grid on larger screens.
+4. Course tab nav-pills stack on mobile, expanded to two on larger screens. Course tab details stack on sm and md screens, 2*2 otherwise.
+5. Text doesn't overflow in hero carousel overlay captions, in accordion, tabs, or any other text element at any screen size 344 px and above.
+6. Paragraph and table in events sections stack on md and sm screens and are inline on larger screen. 
+7. Testimonials video resize according to screen width, controls always available.
+8.  All Carousel controls worko/Event testimonials swipe/left-right arrows work on touch devices.
 ## W3C Validators
 - No errors returned for HTML and CSS W3C Validator and Jigsaw respectively. 
 
@@ -178,9 +189,7 @@ Lighthouse audited the deployed site using Navigation mode across Performance, A
 - Perplexity AI used for text content,and hexcode to rgba conversions
 - Code for responsive grid from Bootstrap documents, implementation inspired by grid layout video from Boardwalk games project, modified to fit project.
 - Code for navbar from bootstrap documentation, customised for website. Brand logo generated by Logo.com
-- Class to prevent navbar blocking main content inspired by boardwalk games project. Padding value adjust in dev tools to fit project.
-- Box shadow, Transform and transition k walkthrough project.
-- Site images and videos generated by Artlist.io using Nano Banana model.
+- Class to prevent navbar blocking main content inspired by boardwalk games project. Padding value adjust in dev tools to fit project. 
 - Template for section structure inspired by boardwalk games project. Customised using custom css and bootstrap classes to fit project.
 - Hero image carousel added from bootstrap customised to fit theme of project.
 - Events section and form created using bootstrap. Customised to project.
@@ -191,10 +200,11 @@ Lighthouse audited the deployed site using Navigation mode across Performance, A
 - Accordion on events page from Bootstrap. Customised to fit project theme, targeted Bootstrap variables to change component styles.
 -JS script to close menu after navigation was taken from Boardwalk Games Project code and modified by VS Code agent to fit project. My understanding is the provided code was designed to work on collapse navbars and not offcanvas drawers
 -Event information presented using Bootstrap Accordion. Customised to fit project.properties added to button hover classes after reading about CSS button properties on W3C. Source: https://www.w3schools.com/css/css3_buttons.asp
+- Button hover effects with transform and transition properties: CSS tutorials from W3Schools (https://www.w3schools.com/css/).
 - Used bootstrap utility classes to structure and arrange footer, Styling of footer inspired by Boardwalk Games.
 - Forms based on bootstrap form control. Grid implementation inspired by boardwalk games project. Styles and additional input fields added to suit project.
 - Business model inspired by Innopharma Education.
-- Favicons used are from Font Awesome.
+- Icons from Font Awesome: favicons and social media icons (Instagram, Facebook, X) in footer, plus address and contact icons.
 - Fonts come from Google Fonts import.
  - Enquire now button felt out of place in the drawer on nav screen. To solve I made the button display none by default and used a media button to make it visible again at 992px breakpoint.
  - Sticky CTA button for mobile/ touchscreens: Inspired by https://stackoverflow.com/questions/39617803/sticky-bottom-button-only-on-mobile
@@ -205,13 +215,20 @@ Lighthouse audited the deployed site using Navigation mode across Performance, A
 
 # Bugs
 - Displacement glitch in hero carousel on index.html when carousel transitions to and from image 1. Maybe be related to additional caption overlay.
+- Carousel Controls hard to see against light background, unable to find a way to target and change color of carousel buttons.
 
-### Media
+# Media
 
 - Images and videos generated by Artlist.io
 - Colour palette selected from Color Hunt  https://colorhunt.co/palette/1b3c53456882d2c1b6f9f3ef
 
+# Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
+The live link can be found here - https://alancoomeynts-hub.github.io/lifesci-skills-academy/index.html
 
 
 
