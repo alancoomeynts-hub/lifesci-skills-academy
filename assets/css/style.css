@@ -266,8 +266,7 @@ h6 {
 
 /*style testimonial video to be responsive*/
 #testimonials iframe{
-  width: 100%;
-  display: block;
+  
   height: 600px;  
   border-radius: 1rem;
  
