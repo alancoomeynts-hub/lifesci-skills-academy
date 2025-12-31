@@ -263,12 +263,7 @@ h6 {
 
 /* Testimonials Section*/
 
-/*style testimonial video container*/
-#testimonials {
-  padding: 2rem;
- 
-  
-}
+
 /*style testimonial video to be responsive*/
 #testimonials video {
   width: 100%;
