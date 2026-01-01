@@ -97,7 +97,7 @@ h6 {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-/*hover effect for buttons on primary navy background*/
+/*hover effect for buttons on primary navy background. Makes button lift up slightly when hovered on*/
 .custom-btn:hover {
   background-color: var(--highlight);
   color: var(--secondary);
@@ -143,7 +143,7 @@ h6 {
   display: none;
 }
 
-/*style for sticky cta button mobile screen*/
+/*style for sticky cta button mobile screen. Places sticky button in bottom right corner, stays in place as user scrolls */
 /* Source: https://stackoverflow.com/questions/39617803/sticky-bottom-button-only-on-mobile */
 .sticky-cta {
   display: inline;
@@ -310,7 +310,7 @@ h6 {
   max-height: 500px;
 }
 
-/*style testimonial video to be responsive*/
+/*style youtube videos to have rounded corners*/
 #testimonials iframe {
   border-radius: 1rem;
 }
@@ -325,7 +325,7 @@ h6 {
   padding: 0.25rem;
 }
 
-/*Style the active pill*/
+/*Style the active nav pill*/
 #course-tabs .nav-pills .nav-link.active {
   background-color: var(--highlight);
   border: 3px solid var(--primary);

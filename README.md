@@ -259,7 +259,6 @@ Lighthouse audited the deployed site using Navigation mode across Performance, A
 -Centering of bootstrap carousel captions as suggested by https://www.freecodecamp.org/news/how-to-center-an-absolute-positioned-element/
 - Glassy carousel captions as described by https://blog.openreplay.com/create-glassmorphic-ui-css/
 - Accordion on events page from Bootstrap. Customised to fit project theme, targeted Bootstrap variables to change component styles.
--JS script to close menu after navigation was taken from Boardwalk Games Project code and modified by VS Code agent to fit project. My understanding is the provided code was designed to work on collapse navbars and not offcanvas drawers
 -Event information presented using Bootstrap Accordion. Customised to fit project.properties added to button hover classes after reading about CSS button properties on W3C. Source: https://www.w3schools.com/css/css3_buttons.asp
 - Button hover effects with transform and transition properties: CSS tutorials from W3Schools (https://www.w3schools.com/css/).
 - Used bootstrap utility classes to structure and arrange footer, Styling of footer inspired by Boardwalk Games.
@@ -270,13 +269,15 @@ Lighthouse audited the deployed site using Navigation mode across Performance, A
  - Enquire now button felt out of place in the drawer on nav screen. To solve I made the button display none by default and used a media button to make it visible again at 992px breakpoint.
  - Sticky CTA button for mobile/ touchscreens: Inspired by https://stackoverflow.com/questions/39617803/sticky-bottom-button-only-on-mobile
    Customised to fit project using CSS tutorial on W3S.
+
+   ## Bugs
 - Had some trouble centring images in the hero carousel. Tried to use background property initially before realising this does not work on img elements. Options were to remove img element and use background on carousel-item or  use object-fit: center on img elements as suggested by W3C: https://www.w3schools.com/css/css3_object-fit.asp
 - Initally the carousel caption backgrounds were overflowing when container becomes too small for contents. Solution media query to to set max-height for small screens and flex to captions to dynamically adjust height and centre the contents. Overflow was also issue when height is restricted, problem for phones in landscape mode (height <~600px>). Solution to add landscape orientation media query to adjust caption background height. Solution source: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 - I had difficult overriding bootstrap tables and nav-pills classes. Using devtools saw bootstrap table class has higher specificity variables. Used custom CSS to target these and customise table text color, background and cell borders, and the text of inactive nav-pills. Source: https://blog.getbootstrap.com/2022/05/16/using-bootstrap-css-vars/
 - Testimonals video embedded using iframes with bootstrap carousel and ratio ratio-16x9 for aspect ratio. Css style to prevent carousel buttons overlapping Youtube fullscreen button inspired by https://forum.bootstrapstudio.io/t/struggling-with-a-video-carousel/11983/7 adjusted to fit site.
+-JS script to close menu after navigation was taken from Boardwalk Games Project code and modified by VS Code agent to fit project. My understanding is the provided code was designed to work on collapse navbars and not offcanvas drawers.
 
-
-# Bugs
+ ## Unresolved Bugs
 - Displacement glitch in hero carousel on index.html when carousel transitions to and from image 1. Maybe be related to additional caption overlay.
 - Carousel Controls hard to see against light background, unable to find a way to target and change color of carousel buttons.
 
