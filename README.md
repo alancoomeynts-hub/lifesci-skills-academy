@@ -228,6 +228,7 @@ Website was thoroughly tested using user personas and stories as a guide.
 - TinyPNG (image compression)
 - W3C Validators (HTML/CSS validation)
 - Chrome DevTools (debugging and testing)
+- Autoprefixer (parse CSS and add vendor prefixes)
 
 ## Lighthouse Automated Testing
 Lighthouse audited the deployed site using Navigation mode across Performance, Accessibility, and Best Practices categories. Performance and Accessibility reached 99% by addressing these optimizations:

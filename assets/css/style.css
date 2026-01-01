@@ -77,7 +77,8 @@ h6 {
 /*style active navbar link with underline*/
 .navbar-nav .nav-link.active {
   text-decoration: underline;
-  text-decoration-color: var(--highlight);
+  -webkit-text-decoration-color: var(--highlight);
+          text-decoration-color: var(--highlight);
   text-decoration-thickness: 3px;
 }
 
@@ -90,7 +91,10 @@ h6 {
   border: 2px solid var(--highlight);
   font-weight: 500;
   letter-spacing: 0.05rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 /*hover effect for buttons on primary navy background*/
@@ -99,7 +103,11 @@ h6 {
   color: var(--secondary);
   border: 2px solid var(--highlight);
 
-  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+
+      -ms-transform: translateY(-2px);
+
+          transform: translateY(-2px);
   font-weight: bolder;
 }
 
@@ -112,6 +120,10 @@ h6 {
   font-weight: 500;
   letter-spacing: 0.05rem;
 
+  -webkit-transition: 0.3s;
+
+  -o-transition: 0.3s;
+
   transition: 0.3s;
 }
 
@@ -120,7 +132,9 @@ h6 {
   background-color: var(--primary);
   color: var(--highlight);
   border: 2px solid var(--secondary);
-  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+          transform: translateY(-2px);
   font-weight: bolder;
 }
 
@@ -163,7 +177,8 @@ h6 {
   /* Ensure hero image fill the carousel item container*/
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* creates glass box and background for hero-image carousel captions.*/
@@ -171,19 +186,30 @@ h6 {
 .carousel-caption {
   /* Styles for glassmorphic background*/
   background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
   color: var(--primary);
   font-weight: 700;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   border-radius: 1.5rem;
 
   /* set dimensions of caption box. Flex column to center content*/
   max-width: 800px;
   height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 
   /*centre the caption box against the background hero image*/
   position: absolute;
@@ -204,6 +230,8 @@ h6 {
 /*Source: https://www.freecodecamp.org/news/how-to-center-an-absolute-positioned-element/ */
 #hero-image-logo {
   max-width: 800px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   position: absolute;
   right: 0;
@@ -235,7 +263,8 @@ h6 {
   background-color: var(--tertiary);
   border: 1px solid rgba(232, 185, 35, 0.25);
   border-radius: 1.5rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
 }
 /* Home Page*/
 /*Courses Section*/
@@ -300,7 +329,8 @@ h6 {
 #course-tabs .nav-pills .nav-link.active {
   background-color: var(--highlight);
   border: 3px solid var(--primary);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.24);
   color: var(--primary);
   border-radius: 0.75rem;
   font-weight: bold;
