@@ -15,7 +15,6 @@
 - Direct enquiry form access.
 - Access to career guidance and invite to webinar and open days to start nurturing journey.
 - Provide contact point for potential industry contracts to develop bespoke training for employees or potentially fund an intake of a course for employees.
-- 
 
 ## User Personas
 - Science and engineering graduates looking to upskill for life manufacturing industry.
@@ -29,14 +28,18 @@
 - As a current employee, I want to understand the differences between your courses and register for a webinar or open day so that I can choose the best option to progress my career.
 - As a career transitioner, I want a guidance form so I get advice without knowing exact course fit.
 - As a potential student or HR associate, I want a testimonials carousel so I trust your life sciences course and training programs.
+- As an HR associate for manufacturing company, I want a way to contact you to arrange bespoke training or private intake.
 
 ## Wireframes
 
-- Home Page (320px-576px-768px>1200px): ![Home page wireframe](wireframes\home-page-wireframe.png)
+- Home Page (320px-576px-768px>1200px): wireframes/home-page-wireframe.png
+- Courses Page (320px-768px > 768px>): wireframes/course-page-wireframe.webp
+- Events Page (320px-768px > 768px>): wireframes/events-page-wireframe.webp
 
 # Features
 This website is built as a responsive, static site using HTML, CSS with Bootstrap to provide an intuitive user experience for potential students of LifeSciSkill Academy.
 Key features include:
+
 ## 1. Responsive Navigation Bar
 - Fixed-top navbar with brand logo, navigation links, and an "Enquire" call-to-action button.
 - Mobile-friendly offcanvas menu that slides in from the right, with smooth closing on link clicks.
@@ -44,15 +47,15 @@ Key features include:
 - Technical Details: Uses Bootstrap's navbar and offcanvas components, with JavaScript for offset scrolling to account for the fixed navbar height.
 
 ### Screenshots
-![Navbar](screenshots\navbar-desktop.webp)
-![Navbar Drawer](screenshots\navbar-drawer.webp)
+![Navbar](screenshots/navbar-desktop.webp)
+![Navbar Drawer](screenshots/navbar-drawer.webp)
 ## 2. Hero Carousel
 - Automatic image carousel showcasing key messages:  for this demo version it shows course intake announcements, open days, and graduation highlights.
 - Includes overlay text captions with calls-to-action (e.g., "Learn More" buttons linking to courses or events).
 - Technical Details: Built with Bootstrap carousel, enhanced with custom CSS for caption styling.
 ### Screenshots
-![Hero Image Carousel with logo](screenshots\hero-image-1.webp)
-![Hero Image 2 showing glassomorphic overlay](screenshots\hero-image-2.webp)
+![Hero Image Carousel with logo](screenshots/hero-image-1.webp)
+![Hero Image 2 showing glassomorphic overlay](screenshots/hero-image-2.webp)
 
 ## 3. Courses Section
 - Grid of Bootstrap cards featuring images that showcase the types of courses offered: Pharmaceutical Manufacturing, Business, Medical Devices, and Digital Transformation.
@@ -60,7 +63,7 @@ Key features include:
 - Responsive layout that adapts from 1 column on mobile to 4 columns on large screens.
 - Technical Details: Uses Bootstrap grid and cards, styled with custom CSS
 ### Screenshots
-![Courses Section on Home Page](screenshots\course-home.webp)
+![Courses Section on Home Page](screenshots/course-home.webp)
 
 ## 4. Events Section
 - Table listing upcoming webinars and open days with dates, times, and event names.
@@ -68,19 +71,22 @@ Key features include:
 - Informational text about live events for lead nurturing.
 - Technical Details: Bootstrap table with hover effects; responsive design ensures readability on all devices.
 ### Screenshots
-![Events Section on Home Page](screenshots\events-section.webp)
+![Events Section on Home Page](screenshots/events-section.webp)
+
 ## 5. Testimonials Carousel
 - Video carousel featuring student testimonials to build trust and credibility.
 - Navigation controls for manual browsing.
-- Technical Details: Bootstrap carousel with <video> elements style and made respponsive with CSS.
-![Testimonials Section on Home Page](screenshots\testimonials.webp)
+- Technical Details: Bootstrap carousel with <iframe> elements style and made respponsive with CSS.
+
+### Screenshot
+![Testimonials Section on Home Page](screenshots/testimonials.webp)
 
 ## 6. Sticky Call-to-Action (CTA)
 -On mobiles, the Enquire button in navbar is replaced by a floating "Enquire" button in the right thumb position for persistent access to enquiry forms throughout the website.
 -Links directly to the course enquiry form.
 -Technical Details: HTML button positioned with CSS position: sticky.
 
-![Sticky CTA button on mobile screens](screenshots\sticky-cta-mobile.webp)
+![Sticky CTA button on mobile screens](screenshots/sticky-cta-mobile.webp)
 
 ## 7. Footer with Contact Information
 Comprehensive contact details: address, phone, email, and social media links.
@@ -88,15 +94,15 @@ Includes a "Career Guidance" section with a direct link to Career guidance form.
 Social media icons for Instagram, Facebook, and X.
 Technical Details: Implemented using Bootstrap grid layout, utility classes and Font Awesome icons.
 
-![Footer](screenshots\footer.webp)
+![Footer](screenshots/footer.webp)
 
 ## 8. Lead Generation Forms and Pathways
 Multiple enquiry pathways: direct "Enquire" buttons, career guidance form, and event registration.
 Forms are accessible within 3 clicks from the homepage, aligning with user needs.
 Technical Details: Forms implemented with Bootstrap form controls and responsive grid. Forms redirect to success page on submission of form.  
 
-![Enquiry Form](screenshots\enquiry-form.webp)
-![Enquiry Form Redirect page on submission of form](screenshots\enquiry-form-submission.webp)
+![Enquiry Form](screenshots/enquiry-form.webp)
+![Enquiry Form Redirect page on submission of form](screenshots/enquiry-form-submission.webp)
 
 
 ## 9. Detailed Courses Page with Tabs
@@ -104,14 +110,14 @@ Interactive tabbed interface for exploring courses
 Each tab displays details of a course: delivery locations, entry requirements, curriculum overview, and funding information which allows users to compare courses easily without page reloads.
 Technical Details: Built with Bootstrap nav-pills and tab content. Customised with CSS
 
-![screenshot of course tabs](screenshots\courses-tab.webp)
+![screenshot of course tabs](screenshots/courses-tab.webp)
 
 ## 10. Events Page with Accordion
 Collapsible accordion layout for detailed event information, enabling users to expand specific events for more details (e.g., descriptions, registration links).
 Supports multiple events with clean, space-efficient design.
 Technical Details: Uses Bootstrap accordion component; ensures only one panel expands at a time for better UX.
 
-![Screenshot of Events Accordion](screenshots\events-accordion.webp)
+![Screenshot of Events Accordion](screenshots/events-accordion.webp)
 
 # Future Improvements
 Due to time constraints, a full B2B section (e.g., dedicated corporate training forms and partnership inquiries) was not implemented but could have been added to better support HR departments and industry partners for bespoke training or funded course intakes. This would enhance the site's alignment with B2B business goals as outlined in the user needs.
@@ -173,11 +179,11 @@ Website was thoroughly tested using user personas and stories as a guide.
 Lighthouse audited the deployed site using Navigation mode across Performance, Accessibility, and Best Practices categories. Performance and Accessibility reached 99% by addressing these optimizations:
 
 ### Performance Optimizations
-- Compressed WebP images via tinypng.com to reduce file sizes
+- Compressed WebP images via tinypng.com to reduce file sizes.
 
-- Added <link rel="preload"> for hero images to improve LCP
+- Added <link rel="preload"> for hero images to improve LCP.
 
-- Adjust Google Fonts import to remove unused fonts
+- Adjust Google Fonts import to remove unused fonts.
 
 - Set explicit width/height attributes on navbar logo.
 
@@ -212,7 +218,7 @@ Lighthouse audited the deployed site using Navigation mode across Performance, A
 - Had some trouble centring images in the hero carousel. Tried to use background property initially before realising this does not work on img elements. Options were to remove img element and use background on carousel-item or  use object-fit: center on img elementsas suggested by W3C: https://www.w3schools.com/css/css3_object-fit.asp
 - Initally the carousel caption backgrounds were overflowing when container becomes too small for contents. Solution media query to to set max-height for small screens and flex to captions to dynamically adjust height and centre the contents. Overflow was also issue when height is restricted, problem for phones in landscape mode (height <~600px>). Solution to add landscape orientation media query to adjust caption background height. Solution source: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 - I had difficult overriding bootstrap tables and nav-pills classes. Using devtools saw bootstrap table class has higher specificity variables. Used custom CSS to target these and customise table text color, background and cell borders, and the text of inactive nav-pills. Source: https://blog.getbootstrap.com/2022/05/16/using-bootstrap-css-vars/
-- Testimonals video embedded using iframes with bootstrap carousel and ratio ratio-16x9 for aspect ratio
+- Testimonals video embedded using iframes with bootstrap carousel and ratio ratio-16x9 for aspect ratio.
 
 
 # Bugs

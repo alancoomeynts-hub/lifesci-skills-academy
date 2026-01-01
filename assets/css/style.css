@@ -71,9 +71,8 @@ h6 {
 }
 /*set dimensions of navbar logo*/
 .navbar-brand img {
-  width: 198px;  
-  height: 49px;  
-  
+  width: 198px;
+  height: 49px;
 }
 /*style active navbar link with underline*/
 .navbar-nav .nav-link.active {
@@ -266,14 +265,15 @@ h6 {
 #testimonials .carousel-inner {
   padding: 2rem;
   margin: auto;
+  min-width: 320px;
+  min-height: 180px;
   max-width: 800px;
+  max-height: 500px;
 }
 
 /*style testimonial video to be responsive*/
 #testimonials iframe {
- 
   border-radius: 1rem;
- 
 }
 
 /* Courses Page*/
@@ -299,7 +299,6 @@ h6 {
 #course-tabs .nav-link:not(.active):hover {
   color: var(--highlight);
 }
-
 
 /*events page*/
 /*customise accordion to match site color scheme by overriding bootstrap variables*/
@@ -376,11 +375,9 @@ h6 {
     max-width: 90%;
   }
 
-
 }
 
 @media screen and (max-width: 576px) {
-
   /*adjust height of carousel caption for small screens to prevent overflow*/
   .carousel-caption {
     height: 80%;
@@ -402,4 +399,11 @@ h6 {
   .carousel-caption {
     height: 90%;
   }
+
+@media screen and (max-width: 1200px){
+  #testimonials .carousel-inner {
+    width: 90%;
+    padding: 1rem;
+  }
+}
 }
