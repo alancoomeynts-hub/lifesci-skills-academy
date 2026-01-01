@@ -32,7 +32,7 @@
 
 ## Wireframes
 
-- Home Page (320px-576px-768px>1200px): ![Home page wireframe](wireframes/home-page-wireframe.png)
+- Home Page (320px-576px-768px>1200px): ![Home page wireframe](wireframes/home-page-wireframe.webp)
 - Courses Page (320px-768px > 768px>): ![Courses Page Wireframe](wireframes/course-page-wireframe.webp)
 - Events Page (320px-768px > 768px>): ![Events Page Wireframe](wireframes/events-page-wireframe.webp)
 
