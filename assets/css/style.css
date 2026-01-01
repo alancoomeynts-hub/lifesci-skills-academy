@@ -405,7 +405,7 @@ h6 {
     height: 90%;
   }
 }
-
+/*below 1200px, these styles apply*/
 @media screen and (max-width: 1200px){
   #testimonials .carousel-inner {
     width: 85%;
